@@ -1,11 +1,15 @@
 # Lab 2: SQLite Database and CRUD Routes
 
-**Name:** Tejas R  
-**Registration Number:** 252U1R8093 
+**Name:** Tejas R   
+**Registration Number:** 252U1R8093   
 **Class:** B.Tech CSE (Quantum Engineering) – 2B  
 **Section:** S-13 204
 
 **Local Server:** `http://localhost:3000`
+
+**Deployed Link:** [https://bdf-lab-02-ik84.onrender.com](https://bdf-lab-02-ik84.onrender.com)
+
+**API Endpoint:** [https://bdf-lab-02-ik84.onrender.com/books/](https://bdf-lab-02-ik84.onrender.com/books/)
 
 ## Objective
 
