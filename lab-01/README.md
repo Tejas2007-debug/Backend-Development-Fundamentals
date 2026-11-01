@@ -1,141 +1,92 @@
-Lab 01: Node.js and Express Server
+# Lab 01: Node.js and Express Server
 
-Student Name: TEJAS R
-Section: CSE(QE) - 2B - 204
-Subject: Backend Development Fundamentals
+## Student Details
 
-1. Objective
+- **Name:** TEJAS R
+- **Registration Number:** 252U1R8093
+- **Section:** CSE(QE)-2B - 204
 
-To set up a Node.js project and build a basic web server using the built-in HTTP module and Express.js.
+**Deployed link:** [https://bdf-lab-01-mk68.onrender.com](https://bdf-lab-01-mk68.onrender.com)
 
-2. Technologies Used
+## Objective
 
-Node.js
+To understand the fundamentals of backend development by creating a basic HTTP server using Node.js and developing a web server using Express.js. The lab focuses on handling HTTP requests, implementing multiple routes, returning JSON responses, and managing invalid routes with appropriate HTTP status codes.
 
-Express.js 5.3.0
+## Technologies Used
 
-JavaScript
+- Node.js
+- Express.js
+- JavaScript
+- Visual Studio Code
+- Git and GitHub
+- Render (Deployment)
 
-Visual Studio Code
+## Installation and Setup
 
-3. Project Structure
+1. Initialize the Node.js project:
 
-lab-01/
-├── screenshots/
-│   ├── home.png
-│   ├── about.png
-│   ├── time.png
-│   ├── 404.png
-│   └── terminal.png
-├── app.js
-├── server.js
-├── package.json
-├── package-lock.json
-├── README.md
-└── .gitignore
+   ```bash
+   npm init -y
+   ```
 
-4. Installation and Execution
+2. Install Express:
 
-Prerequisites
+   ```bash
+   npm install express
+   ```
 
-Node.js
+## How to Run
 
-npm
+### Node.js HTTP Server
 
-Install dependencies
+Run the following command:
 
-npm install
-
-Run the Node.js HTTP server
-
+```bash
 node server.js
+```
 
-Run the Express server
+### Express Server
 
-node app.js
+Run the following command:
 
-Server address: http://localhost:3000
+```bash
+npm start
+```
 
-5. API Endpoints
+## API Endpoints
 
-Method
+- **GET /** — Displays the welcome message.
+- **GET /about** — Returns student information as a JSON response.
+- **GET /time** — Returns the current date and time.
+- **Invalid Routes** — Returns a 404 Not Found response for routes that do not exist.
 
-Endpoint
+## Screenshots
 
-Description
+### Home Page
 
-Status
+![Home Page](screenshots/home.png)
 
-GET
+### About Page
 
-/
+![About Page](screenshots/about.png)
 
-Welcome message
+### Time Page
 
-200
+![Time Page](screenshots/time.png)
 
-GET
+### Not Found Page
 
-/about
+![Not Found Page](screenshots/404.png)
 
-Student details in JSON
+### Terminal Output
 
-200
+![Terminal Output](screenshots/terminal.png)
 
-GET
+## Notes
 
-/time
-
-Current date and time
-
-200
-
-GET
-
-/unknown
-
-Page not found
-
-404
-
-6. Screenshots
-
-Home Route
-
-
-
-About Route
-
-
-
-Time Route
-
-
-
-404 Route
-
-
-
-Server Running
-
-
-
-7. Problems Faced and Solutions
-
-Learned to initialize a Node.js project using npm.
-
-Understood the installation and management of Express.js dependencies.
-
-Created an HTTP server using Node.js.
-
-Implemented GET routes using Express.js.
-
-Learned HTTP status codes and 404 error handling.
-
-8. Conclusion
-
-Successfully developed a basic HTTP server using Node.js and an Express server with multiple GET routes. This lab helped me understand backend server development, request-response handling, routing, and HTTP status codes.
-
-9. Live Deployment
-
-Pending deployment.
+- `package.json` contains project information, scripts, and dependencies.
+- `node_modules` contains the installed Node.js packages.
+- The Node.js built-in `http` module is used to create the basic HTTP server.
+- Express.js is used to handle routes and HTTP responses.
+- Git and GitHub are used for version control and project management.
+- Render is used to deploy the Express application.
