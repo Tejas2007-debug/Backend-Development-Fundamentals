@@ -108,3 +108,11 @@ For POST and PUT requests, send a JSON body containing `title`, `author`, `price
 - The database connection is established before the Express server starts.
 - `node_modules` is excluded from GitHub using `.gitignore`.
 - The SQLite database and API testing screenshots are included in the project.
+
+## Deployment
+
+The application is deployed on Render.
+
+Live URL: https://bdf-lab-02-ik84.onrender.com
+
+API Endpoint: https://bdf-lab-02-ik84.onrender.com/books/
