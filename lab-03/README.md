@@ -225,6 +225,19 @@ The following debugging exercises were performed as part of the lab:
 - `node_modules` and `.env` are excluded from GitHub using `.gitignore`.
 - The SQLite database and API testing screenshots are maintained in the project folder.
 
+## Deployment
+
+The REST API is deployed on Render and accessible through the following URL:
+
+**Live Application:** [https://bdf-lab-03-4csv.onrender.com](https://bdf-lab-03-4csv.onrender.com)
+
+### Live API Endpoints
+
+- GET all books: [https://bdf-lab-03-4csv.onrender.com/books](https://bdf-lab-03-4csv.onrender.com/books)
+- GET book by ID: [https://bdf-lab-03-4csv.onrender.com/books/1](https://bdf-lab-03-4csv.onrender.com/books/1)
+
+The application is hosted using Render's free web service plan.
+
 ## Conclusion
 
 Lab 03 provided practical experience in developing a REST API with Express.js and SQLite. Query parameters, input validation, HTTP status codes and debugging techniques were implemented and tested. Postman was used to verify the API's successful operations and failure cases.
